@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9a8b, #ff6a88, #ff5c8d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    text-align: center;
+    background-color: black;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #ff6a88;
+}
+
+input {
+    padding: 12px;
+    font-size: 1.2rem;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 2px solid #ff6a88;
+    background-color: #fff;
+    color: #ff6a88;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ff9a8b;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff6a88;
+    color: white;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #ff9a8b;
+}
+
+#weather-info {
+    margin-top: 30px;
+    display: none;
+}
+
+#weather-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ff6a88;
+}
+
+#weather-info p {
+    font-size: 1.3rem;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+#weather-info img {
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+}
